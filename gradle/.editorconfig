@@ -1,0 +1,12 @@
+# Top-level configuration file
+root = true
+
+[*.{kt,kts}]
+# Set code style to Android (more lenient with Compose conventions)
+ktlint_code_style = android
+
+# Official way to ignore function naming rules for Compose (supported in newer versions)
+ktlint_function_naming_ignore_when_annotated_with = Composable
+
+# If the above doesn't work in your plugin version, uncomment the line below:
+# ktlint_standard_function-naming = disabled

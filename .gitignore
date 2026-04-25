@@ -1,0 +1,25 @@
+# --- Gradle ---
+.gradle/
+**/build/
+build/
+
+# --- Android Studio / IntelliJ ---
+.kotlin/
+.idea/
+*.iml
+*.iws
+local.properties
+.navigation/
+
+# --- iOS (KMP) ---
+**/build/bin/
+**/build/fat-framework/
+**/build/xcode-frameworks/
+.jetbrains/
+
+# --- System ---
+.DS_Store
+Thumbs.db
+
+# --- Log ---
+*.log
